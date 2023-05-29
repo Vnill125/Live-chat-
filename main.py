@@ -1,33 +1,3 @@
-Skip to content
-Product
-Solutions
-Open Source
-Pricing
-Search
-Sign in
-Sign up
-techwithtim
-/
-Python-Live-Chat-App
-Public
-Code
-Issues
-1
-Pull requests
-3
-Actions
-Projects
-Security
-Insights
-Python-Live-Chat-App/main.py /
-@techwithtim
-techwithtim Add files via upload
-Latest commit d9da4ce on Feb 15
- History
- 1 contributor
-103 lines (82 sloc)  2.97 KB
- 
-
 from flask import Flask, render_template, request, session, redirect, url_for
 from flask_socketio import join_room, leave_room, send, SocketIO
 import random
@@ -131,18 +101,3 @@ def disconnect():
 
 if __name__ == "__main__":
     socketio.run(app, debug=True)
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Python-Live-Chat-App/main.py at main · techwithtim/Python-Live-Chat-App · GitHub
