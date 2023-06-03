@@ -1,6 +1,7 @@
 div{
   color: rgb(219, 75, 188);
 }
+
 .content {
     display: flex;
     align-items: center;
@@ -95,8 +96,6 @@ h1 {
     margin: 20px;
 }
 
-
-
 .button-85 {
   padding: 0.6em 2em;
   border: none;
@@ -177,4 +176,3 @@ input{
   0 0 5px #1b161b, 0 0 10px #161614,
   0 0 20px #12e012, 0 0 40px #21eb0f;
 }
-
