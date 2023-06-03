@@ -1,10 +1,10 @@
 {% extends 'base.html' %} {% block content %}
-
+<body>
 <form method="post" class="buttons">
-  <h3>Enter The Chat Room</h3>
+  <h3 class="strongglow">Enter The Chat Room</h3>
   <div>
-    <label>Name:</label>
-    <input
+    <label class="strongglow" >Name:</label>
+    <input style="width:368px" class = "button-85"
       type="text"
       placeholder="Pick a name!"
       name="name"
@@ -12,15 +12,15 @@
     />
   </div>
   <div class="join">
-    <input type="text" placeholder="Room Code" name="code" value="{{code}}" />
-    <button type="submit" name="join">Join a Room</button>
+    <input class = "button-85" type="text" placeholder="Room Code" name="code" value="{{code}}" />
+    <button class="button-85" type="submit" name="join" style="width:338px">Join a Room</button>
   </div>
-  <button type="submit" name="create" class="create-btn">Create a Room</button>
+  <button type="submit" name="create" class="button-85" style="width:600px">Create a Room</button>
   {% if error %}
   <ul>
-    <li>{{error}}</li>
+    <li class="strongglow" >{{error}}</li>
   </ul>
   {% endif %}
 </form>
-
+</body>
 {% endblock %}
